@@ -7,7 +7,7 @@ FILENAME = 'archive.zip'  # downloaded from kaggle.com/datasets/dansbecker/hot-d
 BASE_DIR = 'Images' # Base dir for ImageDataset
 TARGET_DIR = 'tmp/train' # Base dir for copying
 DESTINATION_DIR = BASE_DIR # Where to copy images
-SPLIT = 0.8 # Spliting data for training and validation
+SPLIT = 0.8 # Splitting data for training and validation
 
 
 # Extracting files from zipfile
