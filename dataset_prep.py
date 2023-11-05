@@ -46,7 +46,7 @@ def move_files():
     for dir1 in dirs:
         target = os.path.join(TARGET_DIR, dir1)
         split = int(len(os.listdir(target)) * SPLIT)
-        count=0;
+        count=0
         for filename in os.listdir(target):
             dest = dir1.replace('_', '')
             trainvalid = 'training' if count<split else 'validation'
