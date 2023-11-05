@@ -49,7 +49,7 @@ def move_files():
         count=0
         for filename in os.listdir(target):
             dest = dir1.replace('_', '')
-            trainvalid = 'training' if count<split else 'validation'
+            trainvalid = 'training' if count < split else 'validation'
             dest = os.path.join(DESTINATION_DIR, trainvalid, dest)
             shutil.copyfile(os.path.join(target, filename), os.path.join(dest, filename))
             count+=1
