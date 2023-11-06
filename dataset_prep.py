@@ -67,8 +67,17 @@ def clear_dirs():
         print(f"Error: {e}")
 
 
-if __name__ == '__main__':
+# Combine all functions to one
+def create_dataset():
+    print('Creating dataset')
+
     extract_files()
     create_folders()
     move_files()
     clear_dirs()
+
+    print('Dataset created')
+
+
+if __name__ == '__main__':
+    create_dataset()
