@@ -1,4 +1,6 @@
 import tensorflow as tf
+
+
 # Create ConvNN model
 def create_model():
     model = tf.keras.Sequential()
