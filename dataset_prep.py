@@ -78,6 +78,3 @@ def create_dataset():
 
     print('Dataset created')
 
-
-if __name__ == '__main__':
-    create_dataset()
