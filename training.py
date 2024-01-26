@@ -20,3 +20,6 @@ plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend()
 plt.show()
+
+# Saving the model
+model.save('hotdog_not_hotdog_model.h5')
