@@ -62,7 +62,7 @@ def clear_dirs():
     print('clearing from uneccesary files')
 
     try:
-        shutil.rmtree('temp')
+        shutil.rmtree('tmp')
     except Exception as e:
         print(f"Error: {e}")
 
